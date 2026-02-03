@@ -1,18 +1,32 @@
+body{
+    margin:0;
+    font-family: Audiowide;
+}
 header img{
     height: 100px;
 }
-header{
-    text-align: center;
-}
-nav{
-    margin-top: 10px;
-}
 nav a{
     text-decoration: none;
-    color:grey;
-    padding: 5px 15px;
+    color:rgb(49, 88, 143);
     font-size: 16px;
+    padding: 5px 15px;
+    font-family: Audiowide;
+    &:hover{
+        color:cadetblue;
+    }
 }
-nav a:hover{
-    color:black;
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(241, 240, 237);
+}
+nav{
+    padding: 10px;
+}
+
+
+
+.welcome{
+    width: 50%;
+    margin: auto;
 }
